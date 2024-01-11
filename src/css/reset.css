@@ -73,34 +73,38 @@ input {
   overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
-  .section {
-    margin: auto;
-    margin-bottom: 100px;
-  }
-  
-  .container {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 0 32px;
-  }
+.section-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+
+.section-title .accent {
+  color: #bea69e;
 }
 
 @media screen and (min-width: 768px) {
   .section {
     margin-bottom: 100px;
   }
-  
+
   .container {
     max-width: 768px;
     padding: 0 32px;
+  }
+
+  .section-title {
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: 0;
   }
 }
 @media screen and (min-width: 1280px) {
   .section {
     margin-bottom: 150px;
   }
-  
+
   .container {
     max-width: 1280px;
     padding: 0 100px;
