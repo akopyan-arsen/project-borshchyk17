@@ -1,25 +1,10 @@
-.our-courses .section-title {
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.15;
-  letter-spacing: -0.04em;
-}
-.our-courses .section-title .accent {
-  color: #bea69e;
-}
-@media screen and (min-width: 768px) {
-  .our-courses .section-title {
-    font-size: 48px;
-    line-height: 1.13;
-  }
-}
-.our-courses .section-title {
+.section-title.our-courses {
   margin-bottom: 20px;
 }
 .courses-text {
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.3;
+  line-height: 1.29;
   letter-spacing: -0.02em;
 
   margin-bottom: 40px;
@@ -41,10 +26,14 @@
 
     margin-bottom: 50px;
   }
+  .section-title.our-courses {
+    flex-shrink: 0;
+  }
 }
 @media screen and (min-width: 1280px) {
   .courses-wrap {
-    gap: 410px;
+    gap: 0;
+    justify-content: space-between;
   }
 }
 .courses-list {
@@ -114,19 +103,20 @@
 }
 
 .courses-icon {
-  fill: #777777;
-
-  transition-property: fill;
+  stroke: #777777;
+  fill: none;
+  stroke-width: 0;
+  transition-property: stroke;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media (hover: hover) {
   .courses-link:hover .courses-icon {
-    fill: #ffffff;
+    stroke: #ffffff;
   }
 }
 .courses-link:active .courses-icon {
-  fill: #ffffff;
+  stroke: #ffffff;
 }
 
 .courses-name {
@@ -144,7 +134,7 @@
 .courses-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
-  line-height: 1.3;
+  line-height: 1.29;
   letter-spacing: -0.02em;
 }
 @media screen and (min-width: 768px) {
