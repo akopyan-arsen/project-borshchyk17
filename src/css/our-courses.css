@@ -1,14 +1,14 @@
-.section-title {
+.our-courses .section-title {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: -0.04em;
 }
-.section-title .accent {
+.our-courses .section-title .accent {
   color: #bea69e;
 }
 @media screen and (min-width: 768px) {
-  .section-title {
+  .our-courses .section-title {
     font-size: 48px;
     line-height: 1.13;
   }
