@@ -50,9 +50,8 @@ input {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
   margin: auto;
+  margin-bottom: 80px;
 }
 
 .container {
@@ -72,4 +71,38 @@ input {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    margin-bottom: 100px;
+  }
+  
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section {
+    margin-bottom: 150px;
+  }
+  
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
 }
