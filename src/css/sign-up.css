@@ -1,0 +1,116 @@
+.title-sign {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: #FFFFFF;
+}
+.title-up {
+    color: #BEA69E;
+}
+.sign-up {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .sign-up {
+        width: 100%;
+    }
+}
+
+.modal-window {
+    border: solid 4px red;
+    height: 523px;
+    width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-window {
+        height: 584px;
+        width: 408px;
+    }
+}
+
+.modal-title {
+    margin-bottom: 41px;
+    letter-spacing: 0.05em;
+    line-height: 1.3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.modal-form-box {
+    margin-bottom: 8px;
+}
+
+.modal-form-label {
+
+    margin-bottom: 4px;
+    display: block;
+    color: #8e8f99;
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    font-size: 12px;
+}
+
+.label-input {
+    border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
+    padding-left: 18px;
+    background-color: transparent;
+    height: 46px;
+    width: 100%;
+}
+
+.label-input:focus {
+     color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.modal-comment-text {
+    margin-bottom: 40px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    resize: none;
+    outline: transparent;
+    padding: 18px 14px;
+    background-color: transparent;
+    border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    font-size: 14px;
+    height: 112px;
+    width: 100%;
+}
+.modal-comment-text:focus {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.button-end {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: #121212;
+    height: 56px;
+    display: block;
+}
+
+
+.modal-chek-privacy {
+
+    color: #8e8f99;
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    font-size: 12px;
+}
+
+
+.link-modal {
+    color: #4d5ae5;
+    }
