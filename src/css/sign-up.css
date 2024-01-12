@@ -126,6 +126,7 @@
 }
 
 .sign-image {
+  margin-left: 60px;
   display: flex;
 }
 
@@ -138,15 +139,15 @@
 .sign-image-lens {
   margin-top: 250px;
   border-radius: 1000px;
-  background-color: #bea69e;
-  height: 240px;
+  background-color: #BEA69E;
+  height: 220px;
   margin-right: 20px;
 }
 .img-lens {
   padding-top: 60px;
-  padding-right: 15px;
-}
-.sign-image-camera {
+padding-right: 19px;
+
+  .sign-image-camera {
   padding-left: 50px;
   height: 490px;
   width: 340px;
