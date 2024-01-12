@@ -1,23 +1,13 @@
-.title-sign {
-  margin-bottom: 20px;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.14;
-  color: #ffffff;
-}
-
-.title-up {
-  color: #bea69e;
-}
-
-.title-up {
-  color: #bea69e;
-}
 .sign-up {
   height: 100%;
   width: 100%;
   left: 0;
   top: 0;
+}
+@media only screen and (min-width: 1280px) {
+  .modal-box {
+    display: flex;
+  }
 }
 
 .modal-window {
@@ -32,8 +22,14 @@
   }
 }
 
+@media only screen and (min-width: 1280px) {
+  .modal-window {
+    margin-right: 60px;
+  }
+}
 .modal-title {
-  margin-bottom: 41px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   letter-spacing: 0.05em;
   line-height: 1.3;
   font-size: 14px;
@@ -127,4 +123,36 @@
 .link-modal {
   text-decoration: underline;
   color: #4d5ae5;
+}
+
+.sign-image {
+  display: flex;
+}
+
+@media only screen and (max-width: 1279.98px) {
+  .sign-image {
+    display: none;
+  }
+}
+
+.sign-image-lens {
+  margin-top: 250px;
+  border-radius: 1000px;
+  background-color: #bea69e;
+  height: 240px;
+  margin-right: 20px;
+}
+.img-lens {
+  padding-top: 60px;
+  padding-right: 15px;
+}
+.sign-image-camera {
+  padding-left: 50px;
+  height: 490px;
+  width: 340px;
+  border-radius: 1000px;
+  background-color: #1d1d1d;
+}
+.img-camera {
+  padding-top: 120px;
 }
