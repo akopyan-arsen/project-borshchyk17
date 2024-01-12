@@ -1,7 +1,7 @@
 <section class="section sign-up">
-  <div class="container">
+  <div class="container modal-box">
     <div class="modal-window">
-      <h2 class="title-sign">Sign <span class="title-up">Up</span></h2>
+      <h3 class="section-title">Sign <span class="accent">Up</span></h3>
       <p class="modal-title">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
@@ -11,6 +11,7 @@
           <label class="form-label" for="user-name"></label>
           <div>
             <input
+            pattern="[A-z]{1,15}"
               placeholder="Enter your name"
               class="label-input"
               id="user-name"
@@ -23,10 +24,11 @@
           <label class="form-label" for="user-name"></label>
           <div>
             <input
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
               placeholder="Enter your email"
               class="label-input"
               id="user-name"
-              type="text"
+              type="email"
               name="user-email"
             />
           </div>
@@ -47,6 +49,36 @@
           </label>
         </div>
       </form>
+    </div>
+    <div class="sign-image">
+      <div class="sign-image-lens">
+        <picture >
+                  <source 
+                  media="(min-width: 1280px)"
+                  srcset="./img/sign-up/camera1@1x.png 1x,
+                  ./img/sign-up/camera1@2x.png 2x"/>
+                  
+                  <img class="img-lens"
+                  src="./img/sign-up/camera1@1x.png"
+                  alt="image"
+                  width="180"
+                  height="142" />
+                  </picture>
+      </div>
+      <div class="sign-image-camera">
+        <picture>
+                  <source 
+                  media="(min-width: 1280px)"
+                  srcset="./img/sign-up/camera2@1x.png 1x,
+                  ./img/sign-up/camera2@2x.png 2x"/>
+                  
+                  <img class="img-camera"
+                  src="./img/sign-up/camera2@1x.png"
+                  alt="image"
+                  width="240"
+                  height="296" />
+                  </picture>
+      </div>
     </div>
   </div>
 </section>
