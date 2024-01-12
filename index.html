@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/project-borshchyk17/assets/index-1892cb83.css">
+    <link rel="stylesheet" href="/project-borshchyk17/assets/index-697ed1cd.css">
   </head>
   <body>
     <header class="header"></header>
@@ -111,11 +111,10 @@
   <div class="container"></div>
 </section>
 
-      
-<section class="section sign-up" id="sign-up">
-  <div class="container">
+      <section class="section sign-up">
+  <div class="container modal-box">
     <div class="modal-window">
-      <h2 class="title-sign">Sign <span class="title-up">Up</span></h2>
+      <h3 class="section-title">Sign <span class="accent">Up</span></h3>
       <p class="modal-title">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
@@ -125,6 +124,7 @@
           <label class="form-label" for="user-name"></label>
           <div>
             <input
+            pattern="[A-z]{1,15}"
               placeholder="Enter your name"
               class="label-input"
               id="user-name"
@@ -137,10 +137,11 @@
           <label class="form-label" for="user-name"></label>
           <div>
             <input
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
               placeholder="Enter your email"
               class="label-input"
               id="user-name"
-              type="text"
+              type="email"
               name="user-email"
             />
           </div>
@@ -161,6 +162,34 @@
           </label>
         </div>
       </form>
+    </div>
+    <div class="sign-image">
+      <div class="sign-image-lens">
+        <picture >
+                  <source 
+                  media="(min-width: 1280px)"
+                  srcset="/project-borshchyk17/assets/camera1@1x-6a82c601.png 1x, /project-borshchyk17/assets/camera1@2x-d51f7e1e.png 2x"/>
+                  
+                  <img class="img-lens"
+                  src="/project-borshchyk17/assets/camera1@1x-6a82c601.png"
+                  alt="image"
+                  width="180"
+                  height="142" />
+                  </picture>
+      </div>
+      <div class="sign-image-camera">
+        <picture>
+                  <source 
+                  media="(min-width: 1280px)"
+                  srcset="/project-borshchyk17/assets/camera2@1x-682db2cc.png 1x, /project-borshchyk17/assets/camera2@2x-51de19af.png 2x"/>
+                  
+                  <img class="img-camera"
+                  src="/project-borshchyk17/assets/camera2@1x-682db2cc.png"
+                  alt="image"
+                  width="240"
+                  height="296" />
+                  </picture>
+      </div>
     </div>
   </div>
 </section>
