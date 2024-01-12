@@ -1,4 +1,3 @@
-
 .sign-up {
   height: 100%;
   width: 100%;
@@ -7,9 +6,8 @@
 }
 @media only screen and (min-width: 1280px) {
   .modal-box {
-  display: flex;
-}
-
+    display: flex;
+  }
 }
 
 .modal-window {
@@ -148,13 +146,13 @@
 .img-lens {
   padding-top: 60px;
 padding-right: 19px;
-}
-.sign-image-camera {
+
+  .sign-image-camera {
   padding-left: 50px;
   height: 490px;
   width: 340px;
   border-radius: 1000px;
-background-color: #1D1D1D;
+  background-color: #1d1d1d;
 }
 .img-camera {
   padding-top: 120px;

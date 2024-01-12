@@ -12,7 +12,7 @@
 
 .adv-line-container {
   display: flex;
-  gap: 10px;
+  gap: 4px;
 }
 .advertisment-line {
   font-size: 28px;
@@ -48,6 +48,9 @@
     font-size: 40px;
     line-height: 1.25;
     padding: 24px 0;
+  }
+  .adv-line-container {
+    gap: 0;
   }
 }
 @media screen and (min-width: 1280px) {

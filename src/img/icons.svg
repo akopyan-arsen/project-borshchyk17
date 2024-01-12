@@ -63,11 +63,10 @@
     <symbol id="icon-arrow" viewBox="0 0 64 32">
       <path d="M44.444 0 64 15.396 44.444 30.792V18.063H0V12.73h44.444V.001z" />
     </symbol>
-    <symbol id="icon-vector" viewBox="0 0 34 32">
-      <path
-        d="m16.127 6.678 11.784-.368-2.408 11.541-3.876-4.619L5.5 26.764l-1.624-1.935 16.127-13.532-3.876-4.619z"
-      />
-    </symbol>
+    <symbol id="icon-vector" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16" />
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667" />
+</symbol>
     <symbol id="icon-camera" viewBox="0 0 32 32">
       <path
         d="M21 17a4.997 4.997 0 0 1-5 5 5.002 5.002 0 0 1-5-5 4.998 4.998 0 0 1 8.536-3.536A4.998 4.998 0 0 1 21 17z"
