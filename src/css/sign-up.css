@@ -10,28 +10,18 @@
   }
 }
 
-.modal-window {
-  height: 577px;
-  width: 335px;
-}
-
 @media only screen and (min-width: 768px) {
   .modal-window {
-    height: 584px;
     width: 480px;
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .modal-window {
-    margin-right: 60px;
-  }
-}
 .modal-title {
+  max-width: 295px;
   margin-top: 20px;
   margin-bottom: 40px;
-  letter-spacing: 0.05em;
-  line-height: 1.3;
+  letter-spacing: -0.02em;
+  line-height: 1.29;
   font-size: 14px;
   font-weight: 400;
 }
@@ -40,89 +30,122 @@
   margin-bottom: 8px;
 }
 
-.form-label {
-  margin-bottom: 4px;
-  display: block;
-  color: #8e8f99;
-  letter-spacing: 0.04em;
-  line-height: 1.17;
-  font-size: 12px;
-}
-
 .label-input {
   border-radius: 12px;
+  color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
-  padding-left: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  padding: 14px 18px;
   background-color: transparent;
   height: 46px;
   width: 100%;
 }
 
+.label-input::placeholder {
+  opacity: 0.7;
+}
+
 .label-input:focus {
-  color: #ffffff;
-  color: #ffffff;
   border-color: #ffffff;
 }
 
 .form-comment-text {
+  color: #ffffff;
   margin-bottom: 40px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
   outline: transparent;
-  padding: 18px 14px;
+  padding: 14px 18px;
   background-color: transparent;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  letter-spacing: 0.04em;
-  line-height: 1.17;
+  line-height: 1.29;
+  font-weight: 400;
   font-size: 14px;
   height: 112px;
   width: 100%;
 }
+
+.form-comment-text::placeholder {
+  opacity: 0.7;
+}
+
 .form-comment-text:focus {
-  color: #ffffff;
   border-color: #ffffff;
 }
 .button-end {
-  margin-bottom: 20px;
-  margin-left: 20px;
-  padding-right: 127px;
-  padding-left: 127px;
+  padding: 14px 127px;
   border-radius: 12px;
+  margin-bottom: 20px;
   border: none;
   cursor: pointer;
   color: #121212;
+  width: 100%;
   height: 48px;
   display: block;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
+  text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media only screen and (min-width: 768px) {
-  .button-end {
-    margin-left: 0;
-    padding-right: 220px;
-    padding-left: 220px;
+@media (hover: hover) {
+  .button-end:hover {
+    background-color: #1d1d1d;
+    color: #bea69e;
   }
 }
-.form-chek-privacy {
+
+.button-end:focus {
+  background-color: #1d1d1d;
+  color: #bea69e;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-title {
+    max-width: 480px;
+    line-height: 1.25;
+    font-size: 16px;
+  }
+
+  .label-input {
+    font-size: 16px;
+    line-height: 1.25;
+    height: 60px;
+  }
+
+  .form-comment-text {
+    line-height: 1.25;
+    font-size: 16px;
+    height: 120px;
+  }
+
+  .button-end {
+    font-size: 18px;
+    padding: 16px 216px;
+    height: 60px;
+  }
+}
+.text-privacy {
   color: rgba(255, 255, 255, 0.5);
-  letter-spacing: 0.03em;
-  line-height: 1.17;
   font-size: 12px;
+  line-height: 1.33;
 }
 
 @media only screen and (min-width: 768px) {
   .text-privacy {
-    text-align: left;
-    width: 100%;
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
 .link-modal {
   text-decoration: underline;
-  color: #4d5ae5;
+  color: inherit;
 }
 
 .sign-image {
@@ -137,23 +160,19 @@
 }
 
 .sign-image-lens {
-  margin-top: 250px;
+  margin-top: 252px;
   border-radius: 1000px;
-  background-color: #BEA69E;
-  height: 220px;
+  background-color: #bea69e;
+  max-height: 288px;
+  width: 180px;
   margin-right: 20px;
+  padding: 76px 19px 62px 19px;
 }
-.img-lens {
-  padding-top: 60px;
-padding-right: 19px;
-}
-  .sign-image-camera {
-  padding-left: 50px;
-  height: 490px;
+
+.sign-image-camera {
+  padding: 156px 50px 88px 50px;
+  height: 540px;
   width: 340px;
   border-radius: 1000px;
   background-color: #1d1d1d;
-}
-.img-camera {
-  padding-top: 120px;
 }
