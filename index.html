@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/project-borshchyk17/assets/index-39fc410d.css">
+    <link rel="stylesheet" href="/project-borshchyk17/assets/index-ed3cf5f1.css">
   </head>
   <body>
     <header class="header"></header>
@@ -124,71 +124,80 @@
           <label class="form-label" for="user-name"></label>
           <div>
             <input
-            pattern="[A-z]{1,15}"
+              pattern="[A-z]{1,15}"
               placeholder="Enter your name"
               class="label-input"
               id="user-name"
               type="text"
               name="user-name"
+              required
             />
           </div>
         </div>
         <div class="form-box">
-          <label class="form-label" for="user-name"></label>
+          <label class="form-label" for="user-email"></label>
           <div>
             <input
-            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
               placeholder="Enter your email"
               class="label-input"
-              id="user-name"
+              id="user-email"
               type="email"
               name="user-email"
+              required
             />
           </div>
         </div>
 
-        <div class="form-chek">
-          <label class="form-chek-privacy" for="user-privacy">
-            <textarea
-              class="form-comment-text"
-              name="user-comment"
-              id="user-comment"
-              placeholder="Message"
-            ></textarea>
-            <button class="button-end" type="submit">SEND</button>
-           <p class="text-privacy"> By clicking on “Send” button, you agree to our
-            <a class="link-modal" href="">Privacy Policy</a>,
-            and allow Promodo to use this information for marketing purposes.</p>
-          </label>
+        <div class="form-check">
+          <label class="form-check-privacy" for="user-comment"> </label>
+          <textarea
+            class="form-comment-text"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button class="button-end" type="submit">Send</button>
+          <p class="text-privacy">
+            By clicking on "Send" button, you agree to our
+            <a class="link-modal" href="">Privacy Policy</a>, and allow Promodo
+            to use this information for marketing purposes.
+          </p>
         </div>
       </form>
     </div>
     <div class="sign-image">
       <div class="sign-image-lens">
-        <picture >
-                  <source 
-                  media="(min-width: 1280px)"
-                  srcset="/project-borshchyk17/assets/camera1@1x-6a82c601.png 1x, /project-borshchyk17/assets/camera1@2x-d51f7e1e.png 2x"/>
-                  
-                  <img class="img-lens"
-                  src="/project-borshchyk17/assets/camera1@1x-6a82c601.png"
-                  alt="image"
-                  width="180"
-                  height="142" />
-                  </picture>
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/project-borshchyk17/assets/camera1@1x-8f39e589.png 1x, /project-borshchyk17/assets/camera1@2x-58b372dc.png 2x"
+          />
+          <img
+            class="img-lens"
+            src="/project-borshchyk17/assets/camera1@1x-8f39e589.png"
+            alt="image"
+            width="150"
+            height="142"
+          />
+        </picture>
       </div>
       <div class="sign-image-camera">
         <picture>
-                  <source 
-                  media="(min-width: 1280px)"
-                  srcset="/project-borshchyk17/assets/camera2@1x-682db2cc.png 1x, /project-borshchyk17/assets/camera2@2x-51de19af.png 2x"/>
-                  
-                  <img class="img-camera"
-                  src="/project-borshchyk17/assets/camera2@1x-682db2cc.png"
-                  alt="image"
-                  width="240"
-                  height="296" />
-                  </picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/project-borshchyk17/assets/camera2@1x-682db2cc.png 1x, /project-borshchyk17/assets/camera2@2x-51de19af.png 2x"
+          />
+
+          <img
+            class="img-camera"
+            src="/project-borshchyk17/assets/camera2@1x-682db2cc.png"
+            alt="image"
+            width="240"
+            height="296"
+          />
+        </picture>
       </div>
     </div>
   </div>
@@ -251,6 +260,6 @@
 </div>
 
 
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
