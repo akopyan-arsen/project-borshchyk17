@@ -8,18 +8,6 @@
     margin: 20px 20px;
  }
 
- @media only screen and (min-width: 768px) {
-    .hero-section {
-        margin: 40px 32px;
-    }
- }
-
- @media only screen and (min-width: 1280px) {
-    .hero-section {
-        margin: 80px 100px;
-    }
- }
-
  .hero-content-box {
     display: flex;
     position: absolute;
@@ -77,20 +65,30 @@
 
 .people-section {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
+    flex-direction: row;
+    gap: 10px;
 }
 
-@media only screen and (min-width: 728px) {
-    .people-section {
-        flex-direction: row;
-        gap: 10px;
-    }
- }
-
-.hero-people-pics {
+ .hero-people-pics {
     display: flex;
     flex-direction: row;
+}
+
+ .person-1 {
+    position: relative;
+    z-index: 3;
+}
+
+.person-2 {
+    position: absolute;
+    z-index: 2;
+    left: 40px;
+}
+
+.person-3 {
+    position: absolute;
+    z-index: 1;
+    left: 86px;
 }
 
 .hero-paragraph-2 {
@@ -139,7 +137,4 @@
     line-height: 1.25; 
     letter-spacing: -0.04em;
 }
-
-
-
 
