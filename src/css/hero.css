@@ -5,7 +5,9 @@
     height: 600px;
     border-radius: 30px;
     background: #1D1D1D;
-}
+    background-position: center;
+    margin: 80px 100px;
+ }
 
 .hero-content {
     margin-top: 80px;
