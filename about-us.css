@@ -1,0 +1,67 @@
+.section-title.about-us{
+    margin-bottom: 50px;
+}
+.about-us-info {
+  
+}
+.about-us-imgn{
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 1280px) {
+    .about-us-imgn{
+        /* desctop */
+       margin-right: 40px;
+    }   
+}
+@media screen and (min-width: 768px) {
+    .about-us-info{
+        /* tablet */
+        display: flex;
+        flex-wrap: wrap;
+    } 
+}
+@media screen and (min-width: 1280px) {
+    .about-us-info{
+        /* desctop */
+        flex-wrap: nowrap;
+    }   
+}
+.about-us-text-pht {
+    width: 335px; 
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-text-pht{
+        /* tablet */
+        width: 280px;
+        height: 240px;
+        margin-right: 20px;
+    } 
+}
+@media screen and (min-width: 1280px) {
+    .about-us-text-pht{
+        /* desctop */
+        width: 314px;
+        height: 220px;
+    }
+    }   
+
+.about-us-text-crs{
+    width: 335px;
+    margin-top: 20px;
+    
+}
+@media screen and (min-width: 768px) {
+    .about-us-text-crs{
+        /* tablet */
+        width: 280px;
+        margin-top: 0px;
+    } 
+}
+@media screen and (min-width: 1280px) {
+    .about-us-text-crs{
+        /* desctop */
+        width: 276px;
+        height: 215px;
+    }   
+}
