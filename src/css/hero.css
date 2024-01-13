@@ -64,13 +64,19 @@
 
 .hero-paragraph {
     max-width: 418px;
-    margin-bottom: 136px;
+    margin-bottom: 40px;
 
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28; /* 128.571% */
     letter-spacing: -0.02em;
 }
+
+ @media only screen and (min-width: 1280px) {
+    .hero-paragraph {
+        margin-bottom: 136px;
+    }
+ }
 
 .accent-hero {
     color: rgba(255, 255, 255, 0.50);
