@@ -5,14 +5,41 @@
     height: 600px;
     border-radius: 30px;
     background: #1D1D1D;
-    margin: 80px 100px;
+    margin: 20px 20px;
  }
 
-.hero-content {
-    margin-top: 80px;
-    margin-left: 50px;
-    margin-right: 50px;
+ @media only screen and (min-width: 768px) {
+    .hero-section {
+        margin: 40px 32px;
+    }
+ }
+
+ @media only screen and (min-width: 1280px) {
+    .hero-section {
+        margin: 80px 100px;
+    }
+ }
+
+ .hero-content {
+    display: flex;
+    position: absolute;
+    margin: 40px 20px;
 }
+
+@media only screen and (min-width: 768px) {
+    .hero-section {
+        margin-top: 64px;
+        margin-left: 32px;
+    }
+ }
+
+ @media only screen and (min-width: 1280px) {
+    .hero-section {
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+ }
 
 .hero-title {
     max-width: 563px;
