@@ -31,8 +31,6 @@
   }
 }
 .about-us-text-pht {
-  width: 335px;
-
   color: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -44,7 +42,6 @@
   .about-us-text-pht {
     /* tablet */
     width: 280px;
-    height: 240px;
     margin-right: 40px;
     font-size: 16px;
     line-height: 1.25;
@@ -53,14 +50,12 @@
 @media screen and (min-width: 1280px) {
   .about-us-text-pht {
     /* desctop */
-    width: 314px;
-    height: 220px;
+    width: 268px;
     margin-right: 20px;
   }
 }
 
 .about-us-text-crs {
-  width: 335px;
   margin-top: 20px;
   font-size: 14px;
   font-weight: 400;
@@ -79,7 +74,6 @@
 @media screen and (min-width: 1280px) {
   .about-us-text-crs {
     /* desctop */
-    width: 276px;
-    height: 215px;
+    width: 264px;
   }
 }
