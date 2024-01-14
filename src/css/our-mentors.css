@@ -44,7 +44,7 @@
     margin-bottom: 40px;
   }
   
-  .mentors-title-span {
+  .accent {
     color: #BEA69E;
     font-family: DM Sans;
     font-size: 28px;
@@ -131,7 +131,7 @@
 }
 
 
-.mentors-title-span {
+.accent {
 color: #BEA69E;
 font-family: DM Sans;
 font-size: 48px;
