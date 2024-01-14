@@ -75,6 +75,11 @@
     text-transform: uppercase;
 }
 
+.header-link:hover,
+.header-link:focus {
+    color: #BEA69E;
+}
+
 .camera {
     display: flex;
     align-items: center;
@@ -94,6 +99,11 @@
 
 .camera-icon {
     fill: #BEA69E66;
+}
+
+.camera:hover>.camera-icon,
+.camera:focus>.camera-icon {
+    fill: #BEA69E;
 }
 
 .burger-btn {
@@ -126,7 +136,6 @@
     padding-right: 58px;
     padding-top: 16px;
     padding-bottom: 16px;
-    background: white;
     border-radius: 12px;
     overflow: hidden;
     justify-content: center;
@@ -144,4 +153,10 @@
         padding-left: 82px;
         padding-right: 82px;
     }
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    color: #BEA69E;
+    background-color: #1D1D1D;
 }
