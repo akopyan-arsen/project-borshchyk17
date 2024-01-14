@@ -1,29 +1,32 @@
 <header class="header">
-  <div class="container header-container">
+  <div class="header-container">
+    <a href="./index.html" class="header-logo">
+      <svg class="header-logo-icon">
+        <use href="./img/icons.svg#icon-logo"></use>
+      </svg>
+    </a>
     <nav class="header-nav">
-      <a href="./index.html" class="header-logo">
-        <svg class="header-logo-icon" width="123" height="16">
-          <use href="./images/icons.svg#icon-logo"></use>
-        </svg>
-      </a>
       <ul class="header-list">
         <li>
-          <a href="./index.html" class="header-link active">About us</a>
+          <a href="./index.html" class="header-link">About us</a>
         </li>
         <li><a href="./index.html" class="header-link">Our courses</a></li>
         <li><a href="./index.html" class="header-link">Our mentors</a></li>
         <li><a href="./index.html" class="header-link">Reviews</a></li>
-        <li><a href="./index.html" class="header-link">contacts</a></li>
+        <li><a href="#contacts" class="header-link">contacts</a></li>
       </ul>
-      <svg class="camera-icon" width="16" height="12">
-        <use href="./images/icons.svg#icon-camera"></use>
-      </svg>
+
+      <a href="#sign-up" class="camera">
+        <svg class="camera-icon" width="16" height="12">
+          <use href="./img/icons.svg#icon-camera"></use>
+        </svg>
+      </a>
       <button class="burger-btn" type="button" aria-label="Open menu button">
         <svg class="burger-btn-icon" width="40" height="28">
-          <use href="./images/icons.svg#icon-burger-menu"></use>
+          <use href="./img/icons.svg#icon-nav"></use>
         </svg>
       </button>
     </nav>
-    <button class="footer-btn" type="submit">Sign up</button>
   </div>
+  <button class="header-btn" type="submit">Sign up</button>
 </header>
