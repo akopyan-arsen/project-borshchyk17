@@ -213,6 +213,10 @@
     letter-spacing: -0.04em;
   }
 
+.arrow-section {
+   margin-top: 58px;
+}
+
 @media screen and (min-width: 768px) {
     .arrow-section {
         display: block;
