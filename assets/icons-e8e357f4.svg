@@ -58,13 +58,11 @@
         d="M24 8 8 24M8 8l16 16"
       />
     </symbol>
-    <symbol id="icon-nav" viewBox="0 0 46 32">
-      <path
-        stroke-linecap="round"
-        stroke-width="3.429"
-        d="M8.671 5.074H44M8.671 24.468H44M19.602 14.771H44"
-      />
-    </symbol>
+    <symbol id="icon-nav" viewBox="0 0 47 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8.538 5.333h36.553"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8.538 24.727h36.553"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M19.668 15.030h25.423"></path>
+</symbol>
     <symbol id="icon-arrow" viewBox="0 0 64 32">
       <path d="M44.444 0 64 15.396 44.444 30.792V18.063H0V12.73h44.444V.001z" />
     </symbol>
