@@ -12,6 +12,6 @@ function closeMobileMenu() {
   document.getElementById('myModal').classList.remove('is-open');
 }
 
-menuLinks.forEach(function(link) {
+menuLinks.forEach(function (link) {
   link.addEventListener('click', closeMobileMenu);
 });
