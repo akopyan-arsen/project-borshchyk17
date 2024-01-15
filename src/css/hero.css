@@ -1,0 +1,318 @@
+.hero-content-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 335px;
+    height: 100%;
+    border-radius: 30px;
+    background: #1d1d1d;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-content-box {
+        max-width: 704px;
+        height: 100%;
+        padding-top: 64px;
+        padding-left: 32px;
+        padding-right: 155px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .hero-content-box {
+        flex-direction: row;
+        max-width: 1080px;
+        height: 100%;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+  }
+
+.hero-picture {
+    width: 259px;
+    height: 314px;
+    background-image: url(../img/hero/cameraboy-mob@1x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 18px;
+}
+
+@media screen and (min-resolution: 192dpi) {
+    .hero-picture {
+      background-image: url(../img/hero/cameraboy-mob@2x.png);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-picture {
+    width: 393px;
+    height: 434px;
+    background-image: url(../img/hero/cameraboy-tab@1x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 124px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero-picture {
+      background-image: url(../img/hero/cameraboy-tab@2x.png);
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .hero-picture {
+    width: 397px;
+    height: 520px;
+    background-image: url(../img/hero/cameraboy-desk@1x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 0;
+    }
+  }
+
+  @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+    .hero-picture {
+      background-image: url(../img/hero/cameraboy-desk@2x.png);
+    }
+  }
+
+.hero-text {
+    margin-bottom: 31px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-text {
+        margin-bottom: 47px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-text {
+        margin-right: 20px;
+    }
+}
+
+.hero-title {
+    max-width: 295px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+  }
+
+@media screen and (min-width: 768px) {
+    .hero-title {
+        max-width: 517px;
+        font-size: 60px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-title {     
+        max-width: 563px;
+        line-height: 1.06;
+        font-size: 64px;
+        line-height: 1.06;
+    }
+}
+  
+  .italic {
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  .hero-paragraph {
+    max-width: 295px;
+    margin-bottom: 40px;
+      
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-paragraph {
+        margin-bottom: 20px;
+    }
+}
+
+  @media screen and (min-width: 1280px) {
+    .hero-paragraph {
+        max-width: 418px;
+        margin-bottom: 136px;
+    }
+}
+  
+  .accent-hero {
+    color: rgba(255, 255, 255, 0.50);
+  }
+  
+.main-review-section {
+    display: flex;
+    /*flex-direction: row;*/
+  }
+
+.people-section {
+    display: flex;
+    /*flex-direction: row;*/
+ }
+
+.person-1 {
+    position: absolute;
+    z-index: 3;
+}
+
+@media screen and (min-width: 768px) {
+  .person-1 {
+      width: 54px;
+      height: 54px;
+  }
+}
+
+.person-2 {
+    position: absolute;
+    z-index: 2;
+    left: 52px;
+}
+
+@media screen and (min-width: 768px) {
+    .person-2 {
+        left: 72px; 
+        width: 54px;
+        height: 54px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .person-2 {
+        left: 90px; 
+    }
+}
+
+.person-3 {
+    position: absolute;
+    z-index: 1;
+    left: 84px;
+}
+
+@media screen and (min-width: 768px) {
+    .person-3 {
+        left: 115px; 
+        width: 54px;
+        height: 54px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .person-3 {
+        left: 133px; 
+      }
+}
+  
+  .hero-paragraph-2 {
+    width: 67px;
+    margin-right: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+  }
+
+  @media screen and (min-width: 728px) {
+    .hero-paragraph-2 {
+      width: 82px;
+      margin-right: 0;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.25;
+   }
+  }
+
+/*странная идея делать margin-top для arrow-section*/
+
+.arrow-section {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+}
+
+@media screen and (min-width: 768px) {
+    .arrow-section {
+        display: block;
+        margin-right: 40px;
+        margin-left: 149px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .arrow-section {
+        margin-left: 147px;
+    }
+}
+
+.arrow-svg-style {
+    fill: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+ }
+  
+ .star-section {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-left: 65px;
+ }
+
+ @media screen and (min-width: 768px) {
+  .star-section {
+    margin-left: 0;
+  }
+ }
+ 
+  .star-svg-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    background: #bea69e;
+  }
+
+  @media screen and (min-width: 768px) {
+    .star-svg-background {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  .star-svg-style {
+    stroke: #121212;
+    fill: none;
+  }
+  
+  .review-amount {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.125;
+    letter-spacing: -0.04em;
+  }
+
+  @media screen and (min-width: 768px) {
+    .review-amount {
+      line-height: 1.25;
+    }
+  }
+  
