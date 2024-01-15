@@ -37,6 +37,11 @@
         d="M183.949 17.191h7.71c-0.077-2.76-1.918-4.084-3.875-4.084-1.994 0-3.643 1.513-3.835 4.084zM196.8 20.292h-13.005c0.154 2.798 1.765 4.613 4.219 4.613 1.611 0 3.030-0.794 3.376-2.080h5.141c-1.15 3.819-4.258 5.975-8.286 5.975-6.291 0-9.437-3.403-9.437-10.134 0-5.748 3.338-9.454 9.13-9.454 5.794 0 8.862 3.706 8.862 11.079z"
       ></path>
     </symbol>
+    <symbol id="icon-burger-menu" viewBox="0 0 47 32">
+      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8.538 5.333h36.553"></path>
+      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8.538 24.727h36.553"></path>
+      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M19.668 15.030h25.423"></path>
+    </symbol>
     <symbol id="icon-star" viewBox="0 0 32 32">
       <path
         stroke-linecap="round"
