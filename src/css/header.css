@@ -1,7 +1,24 @@
+.header-hero {
+  padding-bottom: 80px;
+  background-image: url(../img/header/Graphic-mob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (min-width: 768px) {
+  .header-hero {
+    background-image: url(../img/header/Graphic-tab.png);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-hero {
+    background-image: url(../img/header/Graphic-desk.png);
+  }
+}
+
 .header {
   display: flex;
   padding: 20px;
-  padding-bottom: 40px;
 }
 .header-container {
   display: flex;
@@ -13,9 +30,16 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 12px;
+  background-color: #121212;
   border: 1px rgba(255, 255, 255, 0.2) solid;
 }
 @media only screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 40px;
+  }
+  .header-hero {
+    padding-bottom: 100px;
+  }
   .header-container {
     max-width: 504px;
     height: 60px;
@@ -23,6 +47,12 @@
   }
 }
 @media only screen and (min-width: 1280px) {
+  .header {
+    padding-bottom: 80px;
+  }
+  .header-hero {
+    padding-bottom: 150px;
+  }
   .header-container {
     max-width: 822px;
     padding: 0px 50px;

@@ -10,13 +10,8 @@
     max-width: 335px;
   }
   
-  @media only screen and (min-width: 320px) and (max-width: 375px) {
-    .hero-content-box {
-      width: calc(100% - 40px);
-    }
-    .main-review-section {
-      gap: 45px;
-    }
+  .section.hero-section {
+    margin-bottom: 0;
   }
   
   @media screen and (min-width: 768px) {
@@ -301,5 +296,11 @@
     }
   }
   
-  
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
+    .hero-content-box {
+  width: calc(100% - 40px);}
+    .main-review-section {
+      gap: 45px;
+          }
+  }
   
