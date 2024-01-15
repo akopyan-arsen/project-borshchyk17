@@ -19,24 +19,6 @@
       referrerpolicy="no-referrer"
     />
     
-    <script>
-      function openModal() {
-        document.getElementById('myModal').classList.add('is-open');
-      }
-      function closeModal() {
-        document.getElementById('myModal').classList.remove('is-open');
-      }
-
-      var menuLinks = document.querySelectorAll('.menu-list');
-
-      function closeMobileMenu() {
-        document.getElementById('myModal').classList.remove('is-open');
-      }
-
-      menuLinks.forEach(function (link) {
-        link.addEventListener('click', closeMobileMenu);
-      });
-    </script>
     <link rel="stylesheet" href="/project-borshchyk17/assets/index-ea5aea54.css">
   </head>
   <body>
@@ -694,5 +676,23 @@
   </div>
 </div>
 
+    <script>
+      function openModal() {
+        document.getElementById('myModal').classList.add('is-open');
+      }
+      function closeModal() {
+        document.getElementById('myModal').classList.remove('is-open');
+      }
+
+      var menuLinks = document.querySelectorAll('.menu-list');
+
+      function closeMobileMenu() {
+        document.getElementById('myModal').classList.remove('is-open');
+      }
+
+      menuLinks.forEach(function (link) {
+        link.addEventListener('click', closeMobileMenu);
+      });
+    </script>
   </body>
 </html>
