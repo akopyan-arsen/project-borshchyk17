@@ -1,0 +1,149 @@
+.header {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.header-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 15px 20px;
+  max-width: 335px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  border: 1px rgba(255, 255, 255, 0.2) solid;
+}
+@media only screen and (min-width: 768px) {
+  .header-container {
+    max-width: 504px;
+    height: 60px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-container {
+    max-width: 822px;
+    padding: 0px 50px;
+  }
+}
+.header-nav {
+  display: flex;
+  max-width: 822px;
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-logo-icon {
+  fill: #ffffff;
+  width: 127px;
+  height: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .header-logo-icon {
+    width: 123px;
+    height: 100%;
+  }
+}
+.header-list {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .header-list {
+    display: flex;
+    gap: 28px;
+  }
+}
+.header-link {
+  color: white;
+  font-size: 14px;
+  font-family: DM Sans;
+  text-transform: uppercase;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #bea69e;
+}
+
+.camera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #1d1d1d;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .camera {
+    display: none;
+  }
+}
+.camera-icon {
+  fill: #bea69e66;
+}
+
+.camera:hover > .camera-icon,
+.camera:focus > .camera-icon {
+  fill: #bea69e;
+}
+
+.burger-btn {
+  background-color: #121212;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  .burger-btn-icon {
+    width: 40px;
+    height: 28px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+}
+.burger-btn-icon {
+  stroke: #ffffff;
+}
+.header-btn {
+  margin-left: 14px;
+  margin-right: auto;
+  display: none;
+  color: #121212;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.56;
+  padding: 16px 58px;
+  border-radius: 12px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .header-btn {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-btn {
+    padding-left: 84px;
+    padding-right: 84px;
+  }
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: #bea69e;
+  background-color: #1d1d1d;
+}

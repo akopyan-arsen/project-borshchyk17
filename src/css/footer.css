@@ -1,1 +1,248 @@
+.footer {
+    background-image: url(../img/footer/Graphic-mob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
 
+.footer-container {
+    max-width: 375px;
+    min-height: 535px;
+    padding: 40px 20px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-container {
+        max-width: 768px;
+        min-height: 331px;
+        padding: 50px 32px 25px;
+    }
+
+    .logo-input {
+        display: flex;
+    }
+
+    .footer {
+        background-image: url(../img/footer/Graphic-tab.png);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-container {
+        max-width: 1280px;
+        padding: 50px 100px 25px;
+    }
+
+    .footer {
+        background-image: url(../img/footer/Graphic.png);
+    }
+}
+
+.footer-focus {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-focus {
+        margin-right: 57px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-focus {
+        margin-right: 285px;
+    }
+}
+
+.footer-focus-logo {
+    fill: #fff;
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-focus-logo {
+        margin-bottom: 25px;
+        width: 123px;
+        height: 16px;
+    }
+}
+
+.address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-focus-tel {
+    color: currentColor;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    text-transform: uppercase;
+}
+
+.footer-focus-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+}
+
+.footer-link {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 75px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-link {
+        margin-right: 61px;
+        gap: 25px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-link {
+        margin-right: 137px;
+        gap: 50px;
+    }
+}
+
+.footer-soc-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-soc-link {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-link:focus {
+    color: #bea69e;
+}
+
+@media (hover: hover) {
+    .footer-soc-link:hover {
+        color: #bea69e;
+    }
+}
+
+.footer-soc-link:active {
+    color: #bea69e;
+}
+
+.footer-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-form {
+    margin-bottom: 40px;
+}
+
+.ftr-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media only screen and (min-width: 1280px) {
+    .ftr-form {
+        gap: 16px;
+    }
+}
+
+.footer-form-input {
+    width: 267px;
+    height: 60px;
+    padding: 20px 18px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #fff;
+    outline: transparent;
+    border: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .footer-form-input {
+        width: calc(100% - 68px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-form-input {
+        width: 178px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-form-input {
+        width: 216px;
+    }
+}
+
+.footer-btn {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-paragraph {
+    width: 147px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-paragraph {
+        width: 171px;
+        font-size: 14px;
+        line-height: 1.29;
+    }
+}
+
+.footer-text {
+    width: 116px;
+    margin-left: auto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-text {
+        width: 134px;
+        font-size: 14px;
+        line-height: 1.29;
+    }
+}
