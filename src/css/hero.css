@@ -151,7 +151,7 @@
 }
   
   .accent-hero {
-    color: #BEA69E;;
+    color: rgba(255, 255, 255, 0.50);
   }
   
 .main-review-section {
@@ -169,6 +169,13 @@
     z-index: 3;
 }
 
+@media screen and (min-width: 768px) {
+  .person-1 {
+      width: 54px;
+      height: 54px;
+  }
+}
+
 .person-2 {
     position: absolute;
     z-index: 2;
@@ -178,6 +185,8 @@
 @media screen and (min-width: 768px) {
     .person-2 {
         left: 72px; 
+        width: 54px;
+        height: 54px;
     }
 }
 
@@ -196,25 +205,43 @@
 @media screen and (min-width: 768px) {
     .person-3 {
         left: 115px; 
+        width: 54px;
+        height: 54px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .person-3 {
         left: 133px; 
-    }
+      }
 }
   
   .hero-paragraph-2 {
-    width: 82px;
-    font-size: 16px;
+    width: 67px;
+    margin-right: 4px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.25;
+    line-height: 1.28;
     letter-spacing: -0.04em;
   }
 
+  @media screen and (min-width: 728px) {
+    .hero-paragraph-2 {
+      width: 82px;
+      margin-right: 0;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.25;
+   }
+  }
+
+/*странная идея делать margin-top для arrow-section*/
+
 .arrow-section {
-   margin-top: 58px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
 }
 
 @media screen and (min-width: 768px) {
@@ -222,6 +249,7 @@
         display: block;
         margin-right: 40px;
         margin-left: 149px;
+        margin-top: 0;
     }
 }
 
@@ -231,7 +259,7 @@
     }
 }
 
-  .arrow-svg-style {
+.arrow-svg-style {
     fill: #fff;
     font-size: 16px;
     font-weight: 400;
@@ -239,20 +267,34 @@
     letter-spacing: -0.04em;
  }
   
+ .star-section {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-left: 65px;
+ }
+
+ @media screen and (min-width: 768px) {
   .star-section {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
+    margin-left: 0;
   }
-  
+ }
+ 
   .star-svg-background {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 44px;
+    height: 44px;
     border-radius: 100px;
     background: #bea69e;
+  }
+
+  @media screen and (min-width: 768px) {
+    .star-svg-background {
+      width: 50px;
+      height: 50px;
+    }
   }
   
   .star-svg-style {
@@ -264,9 +306,13 @@
     margin-top: 8px;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.25;
+    line-height: 1.125;
     letter-spacing: -0.04em;
   }
 
-
+  @media screen and (min-width: 768px) {
+    .review-amount {
+      line-height: 1.25;
+    }
+  }
   
