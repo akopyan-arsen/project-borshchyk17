@@ -1,180 +1,132 @@
-    .reviews-card {
-        padding: 20px;
-        margin-top: 40px;
-    
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-    
-    }
-
-
-.reviews-name {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
+.reviews-card {
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.reviews-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 8px;
+}
 
+.stars-name-card {
+  display: flex;
+  gap: 10px;
+}
+.reviews-avatar {
+  flex-shrink: 0;
+  width: 54px;
+  height: 54px;
+}
 
-    .stars-name-card {   
-    display: flex;
-    gap: 10px;
-  }
+.reviews-name-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
 
-  
-  .reviews-name-name {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-  }
-
-
-.reviews-second-text{
+.reviews-second-text {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
   line-height: 1.33;
+  letter-spacing: -0.02em;
+  font-weight: 400;
 }
-
 
 .stars {
-    display: flex;
-    gap: 4px;
-    margin-top: 4px;
-    margin-left: 66px;
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+  margin-left: 66px;
 }
-
 
 .reviews-paragraph {
-    margin-top: 20px;
-    letter-spacing: -0.02em;
-    line-height: 1.29;
-    font-size: 14px;
-    font-weight: 400;
+  margin-top: 20px;
+  letter-spacing: -0.02em;
+  line-height: 1.29;
+  font-size: 14px;
+  font-weight: 400;
 }
-
-
+.one-stars {
+  width: 16px;
+  height: 16px;
+}
 .stars-icon {
-    
-    fill: #BEA69E;
-    stroke-width: 0;
-    transition-property: stroke;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  fill: #bea69e;
+  stroke-width: 1.5;
+  stroke: #bea69e;
 }
 
-.stars-icon:hover{
-fill: rgba(255, 255, 255, 0.20);
-
-stroke-width: 1px;
-stroke: #414141;
+.stars-icon-color {
+  fill: rgba(255, 255, 255, 0.2);
+  stroke-width: 1.5;
+  stroke: #414141;
 }
 
-.stars-icon:focus{
-    fill: rgba(255, 255, 255, 0.20);
-    
-    stroke-width: 1px;
-    stroke: #414141;
-    }
+@media only screen and (min-width: 768px) {
+  .reviews-card {
+    margin-top: 50px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
 
+  .stars-name {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .reviews-name {
+    line-height: 1.4;
+    margin-top: 3px;
+  }
 
+  .reviews-second-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  .one-stars {
+    width: 20px;
+    height: 20px;
+  }
+  .stars-icon,
+  .stars-icon-color {
+    width: 20px;
+    height: 20px;
+  }
+  .reviews-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 600px;
+  }
+}
 
+@media screen and (max-width: 1279px) {
+  .reviews-card-second {
+    display: none;
+  }
+}
 
+@media screen and (min-width: 1280px) {
+  .section-review-two {
+    display: flex;
+    gap: 20px;
+  }
 
-    @media only screen and (min-width: 768px) {
-      
-        .stars-name
-         {
-            display: flex;
-            justify-content: space-between
-            
-           
-        }
+  .reviews-card {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 530px;
+  }
 
-        .section-title {
-            font-size: 48px;
-            font-weight: 500;
-            line-height: 1.2;
-            letter-spacing: -0.04em ;
-            }
+  .stars-name {
+    justify-content: space-between;
+  }
 
-
-            .reviews-card {
-                margin-right: 32px;
-                margin-top: 50px;
-                margin-left: 32px 
-              }
-            
-            
-            .reviews-name {
-            
-                line-height: 1.4; /* 140% */
-            }
-
-
-            .reviews-second-text {
-            
-                font-size: 16px;
-               
-                font-weight: 400;
-                line-height: 1.25; /* 125% */
-                letter-spacing: -0.02em;
-            }
-
-            .reviews-paragraph {
-               
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 1.25;
-                letter-spacing: -0.02em;
-            }
-
-      }
-
-
-
-      @media screen and (max-width: 1280px) {
-        .reviews-card-second {
-            display: none;
-        
-        }
-      }
-
-    
-
-
-      @media screen and (min-width: 1280px) {
-        .section-review-two {
-            display: flex;
-            gap: 20px;
-        
-        }
-
-
-        .container .reviews-container {
-            padding: 0;
-        }
-
-        .reviews-card {
-            margin-left: 0;
-            margin-right: 0;
-            max-width: 610px;
-            
-        }
-
-
-        .stars-name {
-            justify-content: space-between
-        }
-        
-       
-
-      }
-
-
-
-
-
-
+  .reviews-paragraph {
+    max-width: 490px;
+  }
+}

@@ -1,0 +1,310 @@
+.hero-content-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background: #1d1d1d;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 335px;
+}
+
+.section.hero-section {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-content-box {
+    max-width: 704px;
+    padding-top: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-content-box {
+    flex-direction: row;
+    max-width: 1080px;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.hero-picture {
+  margin-left: auto;
+  margin-right: auto;
+  width: 259px;
+  height: 314px;
+  background-image: url(../img/hero/cameraboy-mob@1x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .hero-picture {
+    background-image: url(../img/hero/cameraboy-mob@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-picture {
+    width: 393px;
+    height: 434px;
+    background-image: url(../img/hero/cameraboy-tab@1x.png);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero-picture {
+    background-image: url(../img/hero/cameraboy-tab@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-picture {
+    width: 397px;
+    height: 520px;
+    background-image: url(../img/hero/cameraboy-desk@1x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .hero-picture {
+    background-image: url(../img/hero/cameraboy-desk@2x.png);
+  }
+}
+
+.hero-text {
+  margin-bottom: 31px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+}
+
+.hero-title {
+  max-width: 295px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    max-width: 517px;
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-title {
+    max-width: 563px;
+    line-height: 1.06;
+    font-size: 64px;
+  }
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 400;
+  color: #bea69e;
+}
+
+.hero-paragraph {
+  max-width: 295px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-paragraph {
+    max-width: 418px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-paragraph {
+    margin-bottom: 0;
+  }
+}
+.main-review-section {
+  display: flex;
+  gap: 65px;
+}
+.hero-reviews {
+  display: flex;
+  position: relative;
+}
+.people-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.arrow-section {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.person-1 {
+  z-index: 3;
+  height: 44px;
+  width: 44px;
+}
+
+.person-2 {
+  position: absolute;
+  left: 32px;
+  z-index: 2;
+  height: 44px;
+  width: 44px;
+}
+
+.person-3 {
+  position: absolute;
+  left: 64px;
+  z-index: 1;
+  height: 44px;
+  width: 44px;
+}
+
+.arrow-svg-style {
+  fill: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+}
+
+.star-section {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.star-svg-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 100px;
+  background: #bea69e;
+}
+
+.star-svg-style {
+  stroke: #121212;
+  fill: none;
+}
+
+.accent-hero {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.review-amount {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
+}
+
+.hero-paragraph-2 {
+  width: 67px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .people-section {
+    flex-direction: row;
+    gap: 0;
+  }
+  .person-1 {
+    height: 54px;
+    width: 54px;
+  }
+  .person-2 {
+    left: 40px;
+    height: 54px;
+    width: 54px;
+  }
+  .person-3 {
+    left: 80px;
+    height: 54px;
+    width: 54px;
+  }
+  .main-review-section {
+    gap: 40px;
+  }
+  .arrow-section {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .accent-hero {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+  .review-amount {
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-section {
+    margin-right: 40px;
+    margin-left: 95px;
+  }
+
+  .star-svg-background {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .hero-content-box {
+    width: calc(100% - 40px);
+    max-height: 770px;
+  }
+  .main-review-section {
+    gap: 20%;
+  }
+
+  .hero-picture {
+    max-width: 100%;
+  }
+}
