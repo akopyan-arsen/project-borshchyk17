@@ -92,6 +92,7 @@
   font-size: 14px;
   font-family: DM Sans;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
@@ -108,6 +109,7 @@
   background-color: #1d1d1d;
   border-radius: 50%;
   margin-right: 14px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (min-width: 768px) {
   .camera {
@@ -159,6 +161,8 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (min-width: 768px) {
   .header-btn {
