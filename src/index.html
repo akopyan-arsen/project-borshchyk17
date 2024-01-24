@@ -39,7 +39,7 @@
       function closeModal() {
         document.getElementById('myModal').classList.remove('is-open');
       }
-      var menuLinks = document.querySelectorAll('.menu-list');
+      let menuLinks = document.querySelectorAll('.menu-list');
       function closeMobileMenu() {
         document.getElementById('myModal').classList.remove('is-open');
       }
@@ -47,7 +47,7 @@
         link.addEventListener('click', closeMobileMenu);
       });
       window.onclick = function (event) {
-        var modal = document.getElementById('myModal');
+        let modal = document.getElementById('myModal');
         if (event.target == modal) {
           document.getElementById('myModal').classList.remove('is-open');
         }
